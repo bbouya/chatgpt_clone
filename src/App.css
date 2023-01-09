@@ -1,6 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+  
 }
+/*
+sidemenu
+*/
+.sidemenu{
+  
+  width : 240px;
+  border: 1px solid pink;
+}
+/*
+chatbox
+*/
+.chatbox {
+  flex: 1;
+  border : 1px solid red;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +40,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
