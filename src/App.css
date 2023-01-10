@@ -66,6 +66,15 @@ Text area styles
   right: 0;
 }
 
+/*
+chat logo profile
+*/
+.chat-profil{
+background-color: #61dafb;
+border-radius: 50%;
+
+}
+
 .chat-input-textarea{
   background-color: #52525e;
   width: 100%;
